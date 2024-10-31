@@ -1,0 +1,72 @@
+*{
+  margin:0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.upload {
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.wrapper {
+  list-style-type: none;
+  margin-top: 30px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: left;
+  padding: .5em;
+  font-weight: 400;
+}
+
+.form-row > label {
+  padding: .5em 1em .5em 0;
+}
+
+.form-row input[type=submit] {
+  padding: .5em;
+}
+.form-row > input, .form-row > textarea {
+  flex: 1;
+  padding: 12px 15px;
+}
+
+.gallery {
+  margin-top: 80px;
+  display: flex;
+  row-gap: 100px;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+.gallery div{
+  flex: 0 0 33.3333%;
+}
+
+.gallery h2 {
+  font-weight: 700;
+  margin-top: 15px;
+}
+
+.watch {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.watch h1{
+  margin-top: 40px;
+
+}
+
+.watch div {
+  padding: 5px;
+}
